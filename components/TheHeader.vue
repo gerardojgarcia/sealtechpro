@@ -13,7 +13,7 @@
       </nav>
       <NuxtLink
         to="quote"
-        class="hero-quote bg-safety_orange hover:bg-blue-200 hover:shadow-lg hover:text-black p-2 rounded-md"
+        class="hero-quote hover:bg-safety_orange border-safety_orange border-2 hover:bg-blue-200 hover:shadow-lg hover:text-black p-2 rounded-md"
         >Get A Free Quote</NuxtLink
       >
     </header>
