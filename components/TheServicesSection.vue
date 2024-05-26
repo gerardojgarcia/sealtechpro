@@ -3,7 +3,7 @@
 <template>
   <section
     id="services"
-    class="grid md:grid-cols-2 place-items-center dark:text-white dark:bg-black"
+    class="grid md:grid-cols-2 place-items-center dark:text-white dark:bg-dark_slate_gray"
   >
     <div class="grid place-items-center rounded-lg" data-aos="fade-right">
       <img

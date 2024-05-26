@@ -52,7 +52,7 @@ const cards = ref([
 
 </script>
 <template>
-    <section class="price-card-container grid grid-cols-1 py-16   dark:text-white dark:bg-black" data-aos="fade-up">
+    <section class="price-card-container grid grid-cols-1 py-16  dark:text-white dark:bg-dark_slate_gray" data-aos="fade-up">
     <div class="px-4 md:px-60 flex justify-center flex-col items-center">
         <h3 class="pb-4 text-4xl ">Tailored Solar Panel Cleaning & Maintenance Plans</h3>
         <p class="price-cards-subheading text-2xl">Maximize the efficiency and lifespan of your solar panels with SolarSustain's professional cleaning and maintenance services. Choose from our tailored plans designed to fit different needs and scales of solar installations.</p>
@@ -62,7 +62,7 @@ const cards = ref([
     <div class="grid md:grid-cols-3 gap-4 mt-24 px-4 md:px-16" >
 
     <!-- Price Card -->
-        <div class="price-card p-8 md:px-10 rounded-lg dark:bg-gray-900 border-2 hover:border-blue-600 dark:hover:border-blue-200 duration-150 ease-in dark:hover:border-3 border-blue-400 hover:shadow-lg flex flex-col" v-for="card in cards" :key="card.id" data-aos="fade-up">
+        <div class="price-card p-8 md:px-10 rounded-lg dark:bg-steel_blue border-2 hover:border-blue-600 dark:hover:border-blue-200 duration-150 ease-in dark:hover:border-3 border-blue-400 hover:shadow-lg flex flex-col" v-for="card in cards" :key="card.id" data-aos="fade-up">
         <p class="pre-title text-lg">{{card.pretitle}}</p>
         <p class="card-title text-4xl font-bold py-2">{{card.title}} </p>
         <p class="card-description text-xl">{{card.description}}</p>

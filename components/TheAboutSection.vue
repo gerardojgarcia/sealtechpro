@@ -2,7 +2,7 @@
 
 </script>
 <template>
-    <section id="about" class="grid md:grid-cols-2 dark:text-white  dark:bg-black place-items-center overflow-hidden">
+    <section id="about" class="grid md:grid-cols-2 dark:text-white  dark:bg-dark_slate_gray place-items-center overflow-hidden">
     <div class="p-8" data-aos="fade-right">
         <h2 class="text-5xl mb-6">Solar panels are a significant investment in your sustainable future</h2>
         <p class="text-2xl md:w-3/4 mb-4">Keeping them clean and well-maintained is crucial not only for maximum efficiency but also for ensuring their longevity.</p>

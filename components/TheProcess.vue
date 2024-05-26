@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section id="process" class="dark:bg-black pt-16 pb-24 overflow-hidden">
+  <section id="process" class="dark:bg-dark_slate_gray pt-16 pb-24 overflow-hidden">
     <div class="process-container space-y-16">
       <h2 class="text-4xl text-center">Our Process</h2>
       <p class="text-center text-xl sm:px-2 md:w-1/2 m-auto">

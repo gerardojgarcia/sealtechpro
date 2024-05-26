@@ -2,7 +2,7 @@
 const subscribe = ref(false);
 </script>
 <template>
-  <footer id="footer dark:bg-black dark:text-white py-16">
+  <footer id="footer dark:bg-dark_slate_gray dark:text-white py-16">
     <div class="mx-auto py-16 px-4 flex flex-col md:flex-row justify-between dark:bg-black">
       <!-- Community Column -->
       <div class="flex flex-col space-y-2">

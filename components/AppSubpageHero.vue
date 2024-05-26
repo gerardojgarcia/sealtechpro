@@ -19,7 +19,7 @@ defineProps({
 <style scoped>
 
 .hero {
-    background-image: url('/solar_sustain_5.webp');
+    background-image: url('/');
     background-repeat: no-repeat;
     background-position: top;
     background-size: auto;
