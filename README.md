@@ -36,13 +36,10 @@ sealtech/
 └── README.md   
 ```
 
-- `assets/`: Contains your uncompiled assets such as styles and images.
+
 - `components/`: Your Vue.js components.
 - `layouts/`: Layouts for your pages.
 - `pages/`: Your application views and routes.
-- `plugins/`: JavaScript plugins to run before mounting the root Vue.js application.
-- `static/`: Static files that are directly served at the root.
-- `store/`: Vuex store for state management.
 - `nuxt.config.js`: The main configuration file for your Nuxt.js application.
 
 ## Modules Used
