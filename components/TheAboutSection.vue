@@ -15,7 +15,7 @@
             </div>
     </div>
     <div class="grid place-items-center md:p-32" data-aos="fade-left">
-    <img src="/" alt="Image of men doig maintenance on solar panels" class="rounded-md" height="600px"  />
+    <img src="/sealtech_1.webp" alt="Image of men sealing a concrete driveway in a residential neighborhood" class="rounded-md" height="600px"  />
     </div>
         
     </section>
