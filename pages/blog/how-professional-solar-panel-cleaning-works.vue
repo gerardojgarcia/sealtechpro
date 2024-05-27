@@ -3,7 +3,7 @@
       <section class="mb-8">
         <h1 class="text-4xl font-bold mb-4">How Professional Solar Panel Cleaning Works</h1>
         <h2 class="text-2xl">A Detailed Look at the Steps and Techniques Used by Professional Cleaners in San Bernardino, CA</h2>
-        <img src="/public/solar_sustain_1.webp" alt="Professional Solar Panel Cleaning" class=" w-[50vw] self-center mt-4 mb-8">
+        <img src="/public/sealtech_1.webp" alt="Professional Solar Panel Cleaning" class=" w-[50vw] self-center mt-4 mb-8">
       </section>
   
       <section class="mb-8">

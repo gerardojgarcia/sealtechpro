@@ -7,7 +7,7 @@
       <section class="mb-8">
         <h1 class="text-4xl font-bold mb-4">Cost-Effectiveness of Professional Solar Panel Services</h1>
         <h2 class="text-2xl">Analysis of the Financial Benefits in San Bernardino County, CA</h2>
-        <img src="/solar_sustain_1.webp" alt="Cost-Effective Solar Panel Cleaning" class="w-[50vw] h-auto mt-4 mb-8">
+        <img src="/sealteach_hero.webp" alt="Cost-Effective Solar Panel Cleaning" class="w-[50vw] h-auto mt-4 mb-8">
       </section>
   
       <section class="mb-8">
