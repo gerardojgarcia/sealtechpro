@@ -2,46 +2,47 @@
 const cards = ref([
     {
         id:1,
-        pretitle: 'up to 500 sq. ft.',
-        title: 'Small Scale',
-        description: 'Ideal for smaller residential projects, our Small Package provides comprehensive concrete sealing services to ensure your driveways, patios, or walkways are protected and enhanced. Enjoy peace of mind with professional service and quality results.',
+        pretitle: 'Adequate Protection',
+        title: 'Basic package',
+        description: 'The Basic Package offers essential concrete sealing services, perfect for small residential projects. Ensure your concrete surfaces are prepared and sealed for basic protection and durability.',
         pricing: [
-            'Up to $3200',
+            'starting at $225',
+            'minimum 150 sq. ft.'
 
             
         ],
         features: [
             'Surface Preparation',
-            'Crack and Joint Repair',
+
             'Acrylic Sealing',
-            'Anti-Slip Treatment',
-            'Maintenance and Resealing'
+            
         ]
     },
     {
         id: 2,
-        pretitle: 'up to 1000 sq. ft.',
-        title: 'Commercial Range',  
-        description: 'Perfect for mid-sized residential or commercial projects, the Medium Package offers advanced sealing solutions to keep your concrete surfaces in top condition. Benefit from added durability and aesthetic appeal with our expert services.',
+        pretitle: 'Long-lasting Coverage',
+        title: 'Standard Package',  
+        description: 'Our Standard Package includes additional joint and crack repairs to provide a more comprehensive solution for your concrete surfaces. Ideal for homeowners looking to maintain the integrity and appearance of their driveways, patios, or walkways.',
         pricing: [
-         'up to $6,200'
+         'starting at $375',
+         'minimum 150 sq. ft.'
         ],
         features: [
         'Surface Preparation',
             'Crack and Joint Repair',
             'Acrylic Sealing',
-            'Anti-Slip Treatment',
-            'Maintenance and Resealing'
+          
 
         ]
     },
     {
         id: 3,
-        pretitle: 'up to 2000 sq. ft.',
-        title: 'large Scale',
-        description: 'Our Large Package is designed for extensive residential or commercial projects, providing maximum protection and longevity for your concrete surfaces. Trust SealTech Pro for superior quality and a lasting finish.',
+        pretitle: 'Full Protection',
+        title: 'Premium Package',
+        description: 'The Premium Package is designed for those who want the best for their concrete surfaces. This package includes all our top services to ensure maximum protection, durability, and safety. Perfect for larger residential or commercial projects.',
         pricing: [
-            'up to $11,000'
+            'starting at $825',
+            'minimum 150 sq. ft.'
         ],
         features: [
         'Surface Preparation',
@@ -68,18 +69,20 @@ const cards = ref([
         <div class="price-card p-8 md:px-10 rounded-lg dark:bg-steel_blue border-2 hover:border-blue-600 dark:hover:border-blue-200 duration-150 ease-in dark:hover:border-3 border-blue-400 hover:shadow-lg flex flex-col" v-for="card in cards" :key="card.id" data-aos="fade-up">
         <p class="pre-title text-lg">{{card.pretitle}}</p>
         <p class="card-title text-4xl font-bold py-2">{{card.title}} </p>
-        <p class="card-description text-xl">{{card.description}}</p>
+        
         <ul class="card-pricing flex flex-col py-8 text-xl  " >
             <li v-for="price in card.pricing" :key="card.pricing" ><Icon name="ph:check-circle-bold" color="black" class="mr-2" />{{ price }}</li>
 
         
         </ul>
-        <ul class="card-features list-outside space-y-2" >
+        <ul class="card-features list-outside space-y-2 mb-8"  >
         
-        <li v-for="feature in card.features" :key="card.features">{{ feature }}</li>
+        <li v-for="feature in card.features" :key="card.features" class="font-bold">{{ feature }}</li>
 
         </ul>
         
+        <p class="card-description text-xl">{{card.description}}</p>
+
         
         <button class="border-2 border-blue-400 rounded-md p-2 md:w-1/4 self-end mt-16 hover:shadow-lg hover:bg-blue-400 hover:text-white duration-150" >Book now</button>
         
