@@ -24,7 +24,7 @@
           </p>
         </div>
         <img
-          src="/"
+          src="/sealtech_process_1.webp"
           height="500px"
           width="600px"
           class="rounded-lg"
@@ -39,7 +39,7 @@
         data-aos-delay="400"
       >
         <img
-          src="/"
+          src="/sealtech_process_2.webp"
           height="500px"
           width="600px"
           class="rounded-lg"
@@ -69,7 +69,7 @@
           </p>
         </div>
         <img
-          src="/"
+          src="/sealtech_process_3.webp"
           height="500px"
           width="600px"
           class="rounded-lg"

@@ -2,50 +2,53 @@
 const cards = ref([
     {
         id:1,
-        pretitle: 'Small Scale',
-        title: 'Residential Range',
-        description: 'Perfect for home installations, this range covers systems with fewer panels requiring careful attention to detail',
+        pretitle: 'up to 500 sq. ft.',
+        title: 'Small Scale',
+        description: 'Ideal for smaller residential projects, our Small Package provides comprehensive concrete sealing services to ensure your driveways, patios, or walkways are protected and enhanced. Enjoy peace of mind with professional service and quality results.',
         pricing: [
-            '5-10 Panels: starting at $200',
-             '10-15 Panels: starting at $400',
+            'Up to $3200',
 
             
         ],
         features: [
-            'Cleaning: Thorough removal of dirt, leaves, and other debris using environmentally safe products.',
-            'Inspection: Detailed examination of panel surfaces and mounting hardware for any signs of wear or damage.',
-            'Light Meter Rating: Assessment of the output efficiency of each panel to ensure optimal function.'
+            'Surface Preparation',
+            'Crack and Joint Repair',
+            'Acrylic Sealing',
+            'Anti-Slip Treatment',
+            'Maintenance and Resealing'
         ]
     },
     {
         id: 2,
-        pretitle: 'Medium Scale',
+        pretitle: 'up to 1000 sq. ft.',
         title: 'Commercial Range',  
-        description: 'Ideal for small businesses and commercial installations, this range covers systems with a moderate number of panels',
+        description: 'Perfect for mid-sized residential or commercial projects, the Medium Package offers advanced sealing solutions to keep your concrete surfaces in top condition. Benefit from added durability and aesthetic appeal with our expert services.',
         pricing: [
-         '15-20 Panels: starting at $550',
- '20-25 Panels: starting at $900'
+         'up to $6,200'
         ],
         features: [
-            'Cleaning: High-grade cleaning techniques to cover larger surface areas efficiently.',
-            'Inspection: Comprehensive structural and safety checks to adhere to commercial standards.',
-            'Light Meter Rating: Regular performance evaluations with advanced tools to measure energy output accurately.'
+        'Surface Preparation',
+            'Crack and Joint Repair',
+            'Acrylic Sealing',
+            'Anti-Slip Treatment',
+            'Maintenance and Resealing'
 
         ]
     },
     {
         id: 3,
-        pretitle: 'Large Scale',
-        title: 'Industrial Range',
-        description: 'Designed for large commercial installations, this range covers systems with a high number of panels',
+        pretitle: 'up to 2000 sq. ft.',
+        title: 'large Scale',
+        description: 'Our Large Package is designed for extensive residential or commercial projects, providing maximum protection and longevity for your concrete surfaces. Trust SealTech Pro for superior quality and a lasting finish.',
         pricing: [
-            '25-30 Panels: starting at $2500',
-            '30+ Panels: starting at $3500'
+            'up to $11,000'
         ],
         features: [
-            'Cleaning: Industrial-scale cleaning operations using state-of-the-art equipment to handle vast arrays.',
-            'Inspection: In-depth inspections focusing on the integrity and operational efficiency of large systems.',
-            'Light Meter Rating: Detailed reporting on panel performance, identifying potential areas for improvement.'
+        'Surface Preparation',
+            'Crack and Joint Repair',
+            'Acrylic Sealing',
+            'Anti-Slip Treatment',
+            'Maintenance and Resealing'
         ]
     }
 ])
