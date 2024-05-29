@@ -1,5 +1,56 @@
 <script setup>
-
+ const terms = ref([
+ {
+    id: 1,
+    title: "Introduction",
+    description: "Welcome to SealTech Pro. These Terms and Conditions govern your use of our website and services. By accessing or using our services, you agree to comply with these terms. Please read them carefully."
+  },
+  {
+    id: 2,
+    title: "Services",
+    description: "SealTech Pro provides concrete sealing services, including surface preparation, crack and joint repair, various sealing options, anti-slip treatments, and maintenance. We aim to deliver high-quality results and exceptional customer service."
+  },
+  {
+    id: 3,
+    title: "Booking and Payment",
+    description: "All bookings can be made through our website or by phone. Payment is due upon completion of services, unless otherwise agreed. We accept various payment methods for your convenience. A detailed invoice will be provided after the completion of the job."
+  },
+  {
+    id: 4,
+    title: "Warranty",
+    description: "SealTech Pro offers a 1-year warranty on any defects related to the installation of our concrete sealing services. This warranty covers issues directly resulting from our installation process. It does not cover general wear and tear, misuse, or damage caused by external factors such as extreme weather conditions or accidents."
+  },
+  {
+    id: 5,
+    title: "Cancellation and Rescheduling",
+    description: "If you need to cancel or reschedule your appointment, please notify us at least 48 hours in advance. Cancellations made less than 48 hours before the scheduled service may be subject to a cancellation fee."
+  },
+  {
+    id: 6,
+    title: "Limitation of Liability",
+    description: "SealTech Pro is not liable for any indirect, incidental, or consequential damages resulting from the use of our services. Our total liability for any claim related to our services shall not exceed the amount paid for those services."
+  },
+  {
+    id: 7,
+    title: "User Responsibilities",
+    description: "You are responsible for ensuring that the area to be sealed is free of obstructions. This includes removing furniture, vehicles, and other items from the work area. Failure to do so may result in delays or additional charges."
+  },
+  {
+    id: 8,
+    title: "Privacy Policy",
+    description: "Your privacy is important to us. SealTech Pro collects and uses personal information in accordance with our Privacy Policy, which is available on our website. By using our services, you consent to such collection and use."
+  },
+  {
+    id: 9,
+    title: "Changes to Terms and Conditions",
+    description: "SealTech Pro reserves the right to modify these Terms and Conditions at any time. Changes will be posted on our website, and your continued use of our services constitutes acceptance of the revised terms."
+  },
+  {
+    id: 10,
+    title: "Governing Law",
+    description: "These Terms and Conditions are governed by and construed in accordance with the laws of the state in which SealTech Pro operates. Any disputes arising from these terms shall be resolved in the courts of that state."
+  }
+ ])
 
 
 </script>
@@ -11,56 +62,14 @@
         <div class="p-4 md:p-32 dark:text-white">
             <h1 class="text-5xl mb-10">Terms & Conditions</h1>
 
-            <div class="terms-box container m-auto  space-y-8">
-            <div>
-                <strong>1. Introduction:</strong>
-                <p>Welcome to SolarSustain. These Terms and Conditions govern your use of our solar panel cleaning and maintenance services. By using our services, you agree to these terms in full. If you disagree with these terms or any part of these terms, you must not use our services.</p>
-            </div>
-            <div>
-                <strong>2. Eligibility</strong>
-                <p>You must be at least 18 years old to use our services. By agreeing to these Terms and Conditions, you represent and warrant that you are at least 18 years of age.</p>
-            </div>
-            <div>
-                <strong>3. Service Description</strong>
-                <p>SolarSustain provides solar panel cleaning and maintenance services as described on our website. While we strive to ensure the accuracy of our service descriptions, we do not warrant that all descriptions are accurate, complete, or error-free.</p>
-            </div>
-            <div>
-                <strong>4. Scheduling and Access</strong>
-                <p>To perform the scheduled services, you must grant SolarSustain access to your property where the solar panels are located. If our access to your property is restricted or obstructed, we may charge an additional fee or reschedule the service.</p>
-            </div>
-            <div>
-                <strong>5. Pricing and Payment</strong>
-                <p>Prices for services provided by SolarSustain are as described on our website and are subject to change. Payment for services is due upon completion of the service unless otherwise arranged in advance. We accept various forms of payment, which are listed on our website.</p>
-            </div>
-            <div>
-                <strong>6. Cancellations and Refunds:</strong>
-                <p>You may cancel your service request at least 24 hours before the scheduled time. Cancellations made less than 24 hours before the service time may incur a cancellation fee as detailed on our website. Refunds for services are granted at the discretion of SolarSustain management based on the circumstances of the cancellation.</p>
-            </div>
-            <div>
-                <strong>7. Limitation of Liability:</strong>
-                <p>SolarSustain is not liable for any indirect, special, incidental, consequential, or exemplary damages arising from your use of the services or any agreement with SolarSustain. Our liability in all circumstances is limited to the amount paid by you for the service rendered.</p>
-            </div>
-            <div>
-                <strong>8. Warranty Disclaimer</strong>
-                <p>SolarSustain provides services "as is" and "as available," without any representations or warranties of any kind. We do not warrant that the services provided will be uninterrupted, secure, or error-free.</p>
-            </div>
-            <div>
-                <strong>9. Indemnification:</strong>
-                <p>You agree to indemnify, defend, and hold harmless SolarSustain and its officers, directors, employees, agents, licensors, and suppliers from and against all losses, expenses, damages, and costs, including reasonable attorneys' fees, resulting from any violation of these terms and conditions or any activity related to your account (including negligent or wrongful conduct).</p>
-            </div>
-            <div>
-                <strong>10. Modifications to Terms and Conditions</strong>
-                <p>SolarSustain reserves the right to modify these terms and conditions at any time. We will notify you of any changes by posting the new terms and conditions on this site. Your continued use of the services after any such changes constitutes your acceptance of the new terms.</p>
-            </div>
-            <div>
-                <strong>11. Governing Law:</strong>
-                <p>These terms and conditions are governed by and construed in accordance with the laws of the state in which SolarSustain operates, without regard to its conflict of law provisions.</p>
-            </div>
-            <div>
-                <strong>12. Contact Information:</strong>
-                <p>For any questions or concerns regarding these terms and conditions, please contact us through our website or via the contact information provided on our site.</p>
+            <div class="grid grid-cols-2 space-y-4">
+                <div class="mx-16 " v-for="term in terms" :key="term.id">
+                <strong class="text-3xl">{{ term.title}}</strong>
+                <p>{{ term.description }}</p>
                 </div>
             </div>
+
+            
 
 
         </div>
