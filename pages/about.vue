@@ -7,79 +7,52 @@
     <div class="max-w-7xl mx-auto p-6 space-y-10">
       <!-- Heading -->
       <header class="text-center">
-        <h1 class="text-4xl font-bold">About SolarSustain</h1>
+        <h1 class="text-4xl font-bold">About SealTechPro</h1>
       </header>
 
       <!-- Introduction -->
       <section class="bg-white p-6 rounded shadow-md">
-        <h2 class="text-2xl font-semibold mb-4">Introduction</h2>
+        <h2 class="text-2xl font-semibold mb-4">Our Mission</h2>
         <p>
-          Founded in 2024, SolarSustain is dedicated to enhancing the efficiency and
-          longevity of solar panel systems through expert maintenance and unparalleled
-          customer service. Our mission is to support the growing adoption of renewable
-          energy by ensuring solar panels perform at their peak.
+          At SealTech Pro, our mission is to protect and enhance the durability of
+          concrete surfaces for residential, commercial, and industrial clients. We are
+          committed to delivering top-tier concrete sealing services with a focus on
+          quality, reliability, and customer satisfaction.
         </p>
       </section>
 
       <!-- Our Story -->
       <section class="bg-white p-6 rounded shadow-md">
-        <h2 class="text-2xl font-semibold mb-4">Our Story</h2>
+        <h2 class="text-2xl font-semibold mb-4">Who We Are</h2>
         <p>
-          SolarSustain was born out of a passion for renewable energy and a commitment to
-          sustainability. Recognizing the need for specialized maintenance to keep solar
-          panels operating efficiently, our founders set out to create a company that
-          provides top-tier service with a focus on professionalism and environmental
-          stewardship. Since our inception, we have been serving the San Bernardino area
-          with dedication and expertise.
-        </p>
-      </section>
-
-      <!-- Our Mission -->
-      <section class="bg-white p-6 rounded shadow-md">
-        <h2 class="text-2xl font-semibold mb-4">Our Mission</h2>
-        <p>
-          At SolarSustain, our mission is simple: to help our customers maximize their
-          solar energy investment through regular, high-quality maintenance. We believe
-          that well-maintained solar panels are essential not only for energy efficiency
-          but also for contributing to a cleaner, greener planet.
+          Based in San Bernardino County, California, SealTech Pro has built a reputation
+          as a trusted partner in concrete sealing. Our team of experienced professionals
+          utilizes state-of-the-art techniques and premium sealant products to ensure your
+          concrete surfaces are well-protected against weathering, staining, and wear.
         </p>
       </section>
 
       <!-- Our Services -->
       <section class="bg-white p-6 rounded shadow-md">
         <h2 class="text-2xl font-semibold mb-4">Our Services</h2>
-        <ul class="list-disc list-inside space-y-2">
-          <li>
-            <strong>Solar Panel Cleaning:</strong> Regular cleaning to remove dirt, dust,
-            and debris that can impede efficiency.
-          </li>
-          <li>
-            <strong>Maintenance and Inspections:</strong> Thorough checks to ensure all
-            components are functioning correctly and safely.
-          </li>
-          <li>
-            <strong>Bird Proofing:</strong> Preventive measures to protect your panels
-            from bird-related damage.
-          </li>
-          <li>
-            <strong>Efficiency Checks:</strong> Performance evaluations to maximize energy
-            output.
-          </li>
-        </ul>
+
         <p class="mt-4">
-          Our services are designed to cater to both residential and commercial clients,
-          providing flexible options to suit different needs.
+          We specialize in a wide range of services, including surface preparation, crack
+          and joint repair, various sealing options such as epoxy and polyurethane,
+          anti-slip treatments, and decorative sealing. Whether it's driveways, patios,
+          walkways, or large-scale commercial projects, we provide tailored solutions to
+          meet your specific needs.
         </p>
       </section>
 
       <!-- Our Team -->
       <section class="bg-white p-6 rounded shadow-md">
-        <h2 class="text-2xl font-semibold mb-4">Our Team</h2>
+        <h2 class="text-2xl font-semibold mb-4">Our Commitment to You</h2>
         <p>
-          Our team of skilled technicians is the backbone of SolarSustain. Each member is
-          trained and certified to perform solar panel maintenance with the highest
-          standards of safety and quality. We take pride in our work and are committed to
-          delivering exceptional service with every visit.
+          At SealTech Pro, we understand the importance of your concrete investments. We
+          are dedicated to preserving and enhancing the value and longevity of your
+          surfaces with professional service and exceptional quality. Trust us to deliver
+          superior concrete protection solutions tailored to your needs.
         </p>
       </section>
 
@@ -88,40 +61,38 @@
         <h2 class="text-2xl font-semibold mb-4">Why Choose Us</h2>
         <ul class="list-disc list-inside space-y-2">
           <li>
-            <strong>Expertise:</strong> With specialized knowledge and experience, we
-            provide superior maintenance services that ensure your solar panels are always
-            at their best.
+            <strong>Expertise:</strong> Our team has years of experience in the concrete
+            sealing industry, ensuring high-quality results.
           </li>
           <li>
-            <strong>Customer Service:</strong> We prioritize our clients’ satisfaction,
-            offering responsive and helpful customer support.
+            <strong>Customer Service:</strong>We prioritize clear communication and
+            customer satisfaction, from initial consultation to project completion.
           </li>
           <li>
-            <strong>Sustainability:</strong> Our work supports the broader goal of
-            promoting renewable energy and reducing carbon footprints.
+            <strong>Quality Products:</strong> We use only the best sealant products to
+            ensure long-lasting protection and enhanced appearance.
+          </li>
+          <li>
+            <strong> Warranty:</strong> We stand by our work with a 10-year guarantee on
+            all our services, providing you with peace of mind.
           </li>
         </ul>
       </section>
 
       <!-- Join Us on Our Journey -->
-      <section class="bg-white p-6 rounded shadow-md">
-        <h2 class="text-2xl font-semibold mb-4">Join Us on Our Journey</h2>
-        <p>
-          At SolarSustain, we’re more than just a service provider; we’re a partner in
-          your journey toward sustainable living. Join us as we work to make solar energy
-          a reliable and efficient part of your everyday life.
-        </p>
-      </section>
 
       <!-- Contact Us -->
       <section class="bg-white p-6 rounded shadow-md">
         <h2 class="text-2xl font-semibold mb-4">Contact Us</h2>
-        <p>
-          Ready to experience the SolarSustain difference? Contact us today to learn more
-          about our services or to schedule your next maintenance appointment.
-        </p>
+        <p>Discover the SealTech Pro difference – where quality meets durability.</p>
       </section>
     </div>
+
+    <NuxtLink
+      to="quote"
+      class="p-2 ml-16 md:w-1/2 border-2 border-safety_orange rounded-md hover:bg-safety_orange hover:text-white duration-150"
+      >Contact Us to Learn More</NuxtLink
+    >
     <TheFooter />
   </div>
 </template>
