@@ -1,11 +1,11 @@
 <script setup></script>
 <template>
   <div>
-    <header class="p-4 flex justify-evenly text-white items-center ">
+    <header class="p-4 flex justify-evenly text-black dark:text-white items-center">
       <img src="/" alt="SealTechPro" />
 
       <!-- Main Navigation -->
-      <nav class="flex w-1/2 justify-evenly  font-bold">
+      <nav class="flex w-1/2 justify-evenly font-bold">
         <NuxtLink to="/" class="hover:text-safety_orange">Home</NuxtLink>
         <NuxtLink to="/#services" class="hover:text-safety_orange">Services</NuxtLink>
         <NuxtLink to="about" class="hover:text-safety_orange">About</NuxtLink>

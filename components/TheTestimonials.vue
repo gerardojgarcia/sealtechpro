@@ -41,7 +41,7 @@ const testimonials = [
 
 </script>
 <template>
-    <div class="py-24  bg-dark_slate_gray  flex flex-col items-center justify-center">
+    <div class="py-24  dark:bg-dark_slate_gray  flex flex-col items-center justify-center">
         <h4 class="text-5xl mb-16 px-4 md:w-[35vw] self-center">We're making everyday <span class="text-steel_blue">brighter</span> for our customers</h4>
         <div class="testimonial-container grid md:grid-cols-3 gap-4 md:mx-44 mx-4">
 

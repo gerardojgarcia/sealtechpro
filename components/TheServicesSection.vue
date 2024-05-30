@@ -14,51 +14,84 @@
       />
     </div>
     <div class="p-8" data-aos="fade-left">
-      <h2 class="text-4xl mb-6">Surface Preparation</h2>
+      <h2 class="text-4xl mb-6">Our Services</h2>
       <p class="text-2xl">
-        Before sealing, proper cleaning and preparation of the concrete surface are crucial. Our team ensures that every surface is thoroughly cleaned and prepped, providing a solid foundation for the sealing process.
+        Before sealing, proper cleaning and preparation of the concrete surface are
+        crucial. Our team ensures that every surface is thoroughly cleaned and prepped,
+        providing a solid foundation for the sealing process.
       </p>
-      <div class="mt-8">
-        <strong class="text-2xl">Crack and Joint Repair</strong>
-        <p class="p-8">
-          Repairing cracks and joints in your concrete is essential for long-lasting results. We meticulously repair these areas to ensure a smooth and even surface before applying the sealant.
-        </p>
-        <strong class="text-2xl">Epoxy Sealing</strong>
-        <p class="p-8">
-          For a durable and glossy finish, epoxy sealing is the ideal choice. This high-performance sealer provides excellent protection and an attractive appearance, perfect for both residential and commercial properties.
-        </p>
-        <strong class="text-2xl">Polyurethane Sealing</strong>
-        <p class="p-8">
-          Polyurethane sealing offers enhanced protection and durability. This sealer is perfect for areas that need a robust and long-lasting barrier against the elements.
-        </p>
-        <strong class="text-2xl">Penetrating Sealing</strong>
-        <p class="p-8">
-          Polyurethane sealing offers enhanced protection and durability. This sealer is perfect for areas that need a robust and long-lasting barrier against the elements.
-        </p>
-        <strong class="text-2xl">Polyurethane Sealing</strong>
-        <p class="p-8">
-          Polyurethane sealing offers enhanced protection and durability. This sealer is perfect for areas that need a robust and long-lasting barrier against the elements.
-        </p>
-        <strong class="text-2xl">Polyurethane Sealing</strong>
-        <p class="p-8">
-          Polyurethane sealing offers enhanced protection and durability. This sealer is perfect for areas that need a robust and long-lasting barrier against the elements.
-        </p>
-        <strong class="text-2xl">Polyurethane Sealing</strong>
-        <p class="p-8">
-          Polyurethane sealing offers enhanced protection and durability. This sealer is perfect for areas that need a robust and long-lasting barrier against the elements.
-        </p>
-        <strong class="text-2xl">Polyurethane Sealing</strong>
-        <p class="p-8">
-          Polyurethane sealing offers enhanced protection and durability. This sealer is perfect for areas that need a robust and long-lasting barrier against the elements.
-        </p>
+      <div class="mt-8 grid grid-cols-2">
+        <div>
+          <strong class="text-2xl">Surface Preparation</strong>
+          <p class="p-8">
+            Before sealing, proper cleaning and preparation of the concrete surface are
+            crucial. Our team ensures that every surface is thoroughly cleaned and
+            prepped, providing a solid foundation for the sealing process.
+          </p>
+        </div>
+        <div>
+          <strong class="text-2xl">Crack and Joint Repair</strong>
+          <p class="p-8">
+            Repairing cracks and joints in your concrete is essential for long-lasting
+            results. We meticulously repair these areas to ensure a smooth and even
+            surface before applying the sealant.
+          </p>
+        </div>
+        <div>
+          <strong class="text-2xl">Epoxy Sealing</strong>
+          <p class="p-8">
+            For a durable and glossy finish, epoxy sealing is the ideal choice. This
+            high-performance sealer provides excellent protection and an attractive
+            appearance, perfect for both residential and commercial properties.
+          </p>
+        </div>
+        <div>
+          <strong class="text-2xl">Polyurethane Sealing</strong>
+          <p class="p-8">
+            Polyurethane sealing offers enhanced protection and durability. This sealer is
+            perfect for areas that need a robust and long-lasting barrier against the
+            elements.
+          </p>
+        </div>
+        <div>
+          <strong class="text-2xl">Penetrating Sealing</strong>
+          <p class="p-8">
+            Polyurethane sealing offers enhanced protection and durability. This sealer is
+            perfect for areas that need a robust and long-lasting barrier against the
+            elements.
+          </p>
+        </div>
+        <div>
+          <strong class="text-2xl">Polyurethane Sealing</strong>
+          <p class="p-8">
+            Polyurethane sealing offers enhanced protection and durability. This sealer is
+            perfect for areas that need a robust and long-lasting barrier against the
+            elements.
+          </p>
+        </div>
+        <div>
+          <strong class="text-2xl">Polyurethane Sealing</strong>
+          <p class="p-8">
+            Polyurethane sealing offers enhanced protection and durability. This sealer is
+            perfect for areas that need a robust and long-lasting barrier against the
+            elements.
+          </p>
+        </div>
+        <div>
+          <strong class="text-2xl">Polyurethane Sealing</strong>
+          <p class="p-8">
+            Polyurethane sealing offers enhanced protection and durability. This sealer is
+            perfect for areas that need a robust and long-lasting barrier against the
+            elements.
+          </p>
+        </div>
       </div>
       <div class="button-container justify-between py-8 flex md:w-3/4">
         <NuxtLink
           to="quote"
-          class="hero-quote bg-blue-400 p-2 rounded-md hover:bg-blue-300 dark:text-white hover:text-black duration-150"
+          class="hero-quote border-safety_orange border-2 p-2 rounded-md hover:bg-safety_orange hover:text-white hover:text-black duration-150"
           >Book Your Sealing Today</NuxtLink
         >
-       
       </div>
     </div>
   </section>

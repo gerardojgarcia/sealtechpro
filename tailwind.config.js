@@ -2,7 +2,6 @@
 module.exports = {
     theme: {
       colors: {
-        // Configure your color palette here
         transparent: 'transparent',
         current: 'currentColor',
         dark_slate_gray: '#2F4F4F',
@@ -11,8 +10,6 @@ module.exports = {
         safety_orange: '#FFA500',
         white: '#ffffff',
         black: '#000000'
-    
-
       }
     }
   }
