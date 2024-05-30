@@ -47,11 +47,14 @@ const cards = ref([
     data-aos="fade-up"
   >
     <div class="px-4 md:px-60 flex justify-center flex-col items-center">
-      <h3 class="pb-4 text-4xl">Tailored Solar Panel Cleaning & Maintenance Plans</h3>
+      <h3 class="pb-4 text-4xl">OUr Services</h3>
       <p class="price-cards-subheading text-2xl">
-        Maximize the efficiency and lifespan of your solar panels with SolarSustain's
-        professional cleaning and maintenance services. Choose from our tailored plans
-        designed to fit different needs and scales of solar installations.
+        At SealTech Pro, we offer a comprehensive range of concrete sealing services
+        tailored to meet the needs of residential, commercial, and industrial clients.
+        From surface preparation and crack repair to applying various types of sealants,
+        our expert team ensures your concrete surfaces are protected, durable, and
+        visually appealing. Explore our service packages to find the perfect solution for
+        your project.
       </p>
     </div>
 

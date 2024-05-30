@@ -9,7 +9,8 @@ module.exports = {
         concrete_gray: '#B0C4DE',
         safety_orange: '#FFA500',
         white: '#ffffff',
-        black: '#000000'
+        black: '#000000',
+        
       }
     }
   }
