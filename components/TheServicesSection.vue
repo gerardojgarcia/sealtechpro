@@ -89,7 +89,7 @@
       <div class="button-container justify-between py-8 flex md:w-3/4">
         <NuxtLink
           to="quote"
-          class="hero-quote border-safety_orange border-2 p-2 rounded-md hover:bg-safety_orange hover:text-white hover:text-black duration-150"
+          class="hero-quote border-safety_orange border-2 p-2 rounded-md hover:bg-safety_orange hover:text-white text-black duration-150"
           >Book Your Sealing Today</NuxtLink
         >
       </div>

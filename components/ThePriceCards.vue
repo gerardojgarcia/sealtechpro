@@ -47,7 +47,7 @@ const cards = ref([
     data-aos="fade-up"
   >
     <div class="px-4 md:px-60 flex justify-center flex-col items-center">
-      <h3 class="pb-4 text-4xl">OUr Services</h3>
+      <h3 class="pb-4 text-4xl">Flat Rate Pricing on all our work</h3>
       <p class="price-cards-subheading text-2xl">
         At SealTech Pro, we offer a comprehensive range of concrete sealing services
         tailored to meet the needs of residential, commercial, and industrial clients.
