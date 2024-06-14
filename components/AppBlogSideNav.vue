@@ -2,19 +2,19 @@
 const pages = ref([
   {
     id: 1,
-    title: "Why Hire Professional Solar Panel Cleaners?",
-    date: "05-19-2024",
+    title: "Climate Impact on Concrete Sealing in San Bernardino",
+    date: "06-12-2024",
     description:
-      "Explore the top reasons to choose professional services for solar panel cleaning.",
-    link: "/blog/why-hire-professional-solar-panel-cleaners",
+      "Explore how the local climate affects concrete sealing practices and results.",
+    link: "/blog/climate-impact-concrete-sealing-san-bernardino",
   },
   {
     id: 2,
-    title: "How Professional Solar Panel Cleaning Works",
+    title: "Best Seasons for Concrete Sealing in San Bernardino County",
     date: "05-19-2024",
     description:
-      "A detailed look at the steps and techniques used by professional cleaners.",
-    link: "/blog/how-professional-solar-panel-cleaning-works",
+      "Identify the best times of the year to seal concrete in the region for optimal results.",
+    link: "/blog/best-seasons-concrete-sealing-san-bernardino",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const pages = ref([
     description:
       "Analysis of the financial benefits of using professional cleaning services.",
     link: "/blog/cost-effectiveness-professional-solar-panel-services",
-  }
+  },
 ]);
 </script>
 <template>
@@ -42,9 +42,6 @@ const pages = ref([
 <style scoped>
 .router-link-active {
   font-weight: bold;
-  color: #2563EB;
+  color: #2563eb;
 }
-
-
-
 </style>
