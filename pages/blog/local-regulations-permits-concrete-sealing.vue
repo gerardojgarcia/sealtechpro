@@ -182,7 +182,6 @@
     </section>
 
     <section>
-      <h2 class="text-2xl font-bold mb-4">Conclusion</h2>
       <p class="text-gray-700">
         Concrete sealing projects in San Bernardino require careful
         consideration of local regulations and permits. By understanding and
