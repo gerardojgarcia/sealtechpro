@@ -24,6 +24,14 @@ const pages = ref([
       "Discuss common concrete problems specific to the region and effective sealing solutions.",
     link: "/blog/common-concrete-issues-san-bernardino",
   },
+  {
+    id: 4,
+    title: "Local Regulations and Permits for Concrete Sealing",
+    date: "06-20-2024",
+    description:
+      "Learn about the regulations and permits required for concrete sealing projects in San Bernardino.",
+    link: "/blog/local-regulations-permits-concrete-sealing",
+  },
 ]);
 </script>
 <template>
