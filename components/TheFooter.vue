@@ -10,7 +10,7 @@ const subscribe = ref(false);
       <div class="flex flex-col space-y-2">
         <span class="font-semibold">Community</span>
         <NuxtLink
-          to="blog/why-hire-professional-solar-panel-cleaners"
+          to="blog/best-seasons-concrete-sealing-san-bernardino"
           class="hover:underline hover:text-blue-400"
           >Blog</NuxtLink
         >
@@ -28,8 +28,12 @@ const subscribe = ref(false);
         <NuxtLink href="/support" class="hover:underline hover:text-blue-400"
           >Support</NuxtLink
         >
-        <NuxtLink href="/faqs" class="hover:underline hover:text-blue-400">FAQS</NuxtLink>
-        <NuxtLink href="/jobs" class="hover:underline hover:text-blue-400">Jobs</NuxtLink>
+        <NuxtLink href="/faqs" class="hover:underline hover:text-blue-400"
+          >FAQS</NuxtLink
+        >
+        <NuxtLink href="/jobs" class="hover:underline hover:text-blue-400"
+          >Jobs</NuxtLink
+        >
         <NuxtLink href="/terms" class="hover:underline hover:text-blue-400"
           >Terms&Conditions</NuxtLink
         >
@@ -52,7 +56,10 @@ const subscribe = ref(false);
       <!-- Newsletter Column -->
       <div class="flex flex-col space-y-2">
         <span class="font-semibold">Subscribe to our newsletter</span>
-        <p>Stay updated on new releases and features, guides, and community updates.</p>
+        <p>
+          Stay updated on new releases and features, guides, and community
+          updates.
+        </p>
         <form class="flex mt-2">
           <input
             type="email"

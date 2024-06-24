@@ -18,11 +18,11 @@ const pages = ref([
   },
   {
     id: 3,
-    title: "Cost-Effectiveness of Professional Solar Panel Services",
-    date: "05-19-2024",
+    title: "Common Concrete Issues in San Bernardino and Their Solutions",
+    date: "06-20-2024",
     description:
-      "Analysis of the financial benefits of using professional cleaning services.",
-    link: "/blog/cost-effectiveness-professional-solar-panel-services",
+      "Discuss common concrete problems specific to the region and effective sealing solutions.",
+    link: "/blog/common-concrete-issues-san-bernardino",
   },
 ]);
 </script>
