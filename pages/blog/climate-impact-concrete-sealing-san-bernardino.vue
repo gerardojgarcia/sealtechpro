@@ -1,4 +1,9 @@
-```vue
+<script setup>
+useHead({
+    title: "Climate Impact  on Concrete Sealing in San Bernardino",
+});
+</script>
+
 <template>
     <div class="p-8">
         <h1 class="text-3xl font-bold mb-4">
@@ -214,6 +219,3 @@
         </section>
     </div>
 </template>
-
-<script setup></script>
-```
