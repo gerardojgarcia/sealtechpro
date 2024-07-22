@@ -9,6 +9,7 @@ useHead({
             <h1 class="text-3xl font-bold mb-4">
                 Best Seasons for Concrete Sealing in San Bernardino County
             </h1>
+
             <img
                 src="/sealtech_blog_2.webp"
                 alt="image of a sealed driveway with a view of the valley in the background"
@@ -182,7 +183,6 @@ useHead({
         </section>
 
         <section>
-            <h2 class="text-2xl font-bold mb-4">Conclusion</h2>
             <p class="text-gray-700">
                 Concrete sealing in San Bernardino County requires careful
                 consideration of seasonal climate variations. By choosing to
@@ -200,4 +200,3 @@ useHead({
 </template>
 
 <style scoped></style>
-```

@@ -16,7 +16,6 @@ useHead({
         />
 
         <section class="mb-8">
-            <h2 class="text-2xl font-semibold mb-4">Introduction</h2>
             <p>
                 Concrete sealing is essential for preserving the durability and
                 appearance of concrete structures. In San Bernardino, the local
@@ -204,7 +203,6 @@ useHead({
         </section>
 
         <section class="mb-8">
-            <h2 class="text-2xl font-semibold mb-4">Conclusion</h2>
             <p>
                 Concrete sealing in San Bernardino requires careful
                 consideration of the local climate. By addressing the challenges
