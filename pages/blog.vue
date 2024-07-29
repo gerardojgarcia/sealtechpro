@@ -11,7 +11,7 @@ useHead({
 
         <div class="flex h-[65vh] overflow-y-auto">
             <AppBlogSideNav class="absolute w-52" />
-            <NuxtPage class="ml-52 h-[50vh]" />
+            <NuxtPage class="ml-60 h-[50vh]" />
         </div>
 
         <TheFooter />
