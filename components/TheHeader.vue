@@ -4,7 +4,7 @@
         <header
             class="p-4 flex justify-evenly text-black dark:text-white items-center"
         >
-            <img src="/" alt="SealTechPro" />
+            <img src="/sealtech_logo.png" alt="SealTechPro" />
 
             <!-- Main Navigation -->
             <nav class="flex w-1/2 justify-evenly font-bold">
