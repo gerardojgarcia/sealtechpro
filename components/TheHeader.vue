@@ -22,7 +22,7 @@
                 >
             </nav>
             <NuxtLink
-                to="quote"
+                to="/quote"
                 class="hero-quote hover:bg-safety_orange border-safety_orange border-2 hover:bg-blue-200 hover:shadow-lg hover:text-black p-2 rounded-md"
                 >Get A Free Quote</NuxtLink
             >
