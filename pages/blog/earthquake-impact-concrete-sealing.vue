@@ -1,6 +1,4 @@
 <script setup>
-import { NuxtLink } from "nuxt/app";
-
 useHead({
     title: "Earthquake Impact on Concrete Structures",
     description:
@@ -16,7 +14,6 @@ useHead({
         </h1>
 
         <section class="mb-8">
-            <h2 class="text-2xl font-semibold mb-2">Description</h2>
             <p>
                 This article analyzes how earthquakes affect concrete structures
                 and the importance of sealing in San Bernardino County. It
@@ -27,7 +24,6 @@ useHead({
         </section>
 
         <section class="mb-8">
-            <h2 class="text-2xl font-semibold mb-2">Introduction</h2>
             <p>
                 San Bernardino County, located in Southern California, is no
                 stranger to seismic activity. Earthquakes pose a significant
@@ -186,7 +182,6 @@ useHead({
         </section>
 
         <section class="mb-8">
-            <h2 class="text-2xl font-semibold mb-2">Conclusion</h2>
             <p>
                 Earthquakes are an unavoidable reality in San Bernardino County,
                 but the damage they cause to concrete structures can be

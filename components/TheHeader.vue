@@ -2,7 +2,7 @@
 <template>
     <div>
         <header
-            class="p-4 flex justify-evenly text-black dark:text-white items-center"
+            class="p-4 flex justify-evenly text-black dark:text-white items-center fixed w-full top-0 bg-white z-10"
         >
             <img src="/sealtech_logo.png" alt="SealTechPro" />
 

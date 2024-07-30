@@ -1,6 +1,4 @@
 <script setup>
-import { NuxtLink } from "nuxt/app";
-
 useHead({
     title: "The Cost of Concrete Sealing in San Bernardino County",
     description:
@@ -67,7 +65,8 @@ useHead({
                     project. Permit costs can vary, so it’s best to check with
                     your local municipality. For more information on local
                     regulations, visit
-                    <NuxtLink to="/san-bernardino-county-local-regulations"
+                    <NuxtLink
+                        to="/blog/local-regulations-permits-concrete-sealing"
                         >San Bernardino County Local Regulations</NuxtLink
                     >.
                 </p>
@@ -108,7 +107,7 @@ useHead({
                 optimal curing and effectiveness of the sealant. For more
                 details, check out
                 <NuxtLink
-                    to="/best-seasons-for-concrete-sealing-in-san-bernardino"
+                    to="/blog/best-seasons-for-concrete-sealing-in-san-bernardino"
                     >Best Seasons for Concrete Sealing in San
                     Bernardino</NuxtLink
                 >.

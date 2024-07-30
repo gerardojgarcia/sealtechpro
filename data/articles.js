@@ -1,4 +1,4 @@
-export const articles = [
+const articles = [
   {
     id: 1,
     title: "Climate Impact of Concrete in San Bernardino County",
