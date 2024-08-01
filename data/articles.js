@@ -47,6 +47,14 @@ const articles = [
       "Analyze how earthquakes affect concrete structures and the importance of sealing in the region.",
     link: "/blog/earthquake-impact-concrete-sealing",
   },
+  {
+    id: 7,
+    title: "The Role of UV Exposure in Concrete Sealing Needs",
+    date: "08-1-2024",
+    description:
+      "How San Bernardino’s sun exposure affects concrete sealing requirements.",
+    link: "/blog/uv-exposure-concrete-sealing",
+  },
 ];
 
 export default articles;
