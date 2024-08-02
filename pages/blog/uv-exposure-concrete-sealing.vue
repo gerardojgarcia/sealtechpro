@@ -26,8 +26,7 @@ useHead({
                 beautiful sunshine comes with a hidden cost for property owners:
                 the accelerated wear and tear on concrete surfaces. This article
                 explores how UV exposure in San Bernardino affects concrete
-                sealing requirements and why understanding this impact is
-                crucial for maintaining the integrity and appearance of your
+                sealing requirements and why understanding this impact is                crucial for maintaining the integrity and appearance of your
                 concrete surfaces.
             </p>
         </section>
