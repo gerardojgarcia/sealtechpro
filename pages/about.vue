@@ -78,7 +78,7 @@ useHead({
                         experience in the concrete sealing industry, ensuring
                         high-quality results.
                     </li>
-                    <li>
+                   <li>
                         <strong>Customer Service:</strong>We prioritize clear
                         communication and customer satisfaction, from initial
                         consultation to project completion.
