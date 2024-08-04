@@ -55,6 +55,14 @@ const articles = [
       "How San Bernardino’s sun exposure affects concrete sealing requirements.",
     link: "/blog/uv-exposure-concrete-sealing",
   },
+  {
+    id: 8,
+    title: "Preparing Concrete for Sealing in San Bernardino County",
+    date: "08-4-2024",
+    description:
+      "How San Bernardino’s sun exposure affects concrete sealing requirements.",
+    link: "/blog/preparing-concrete-sealing-san-bernardino",
+  },
 ];
 
 export default articles;
