@@ -10,12 +10,12 @@ useHead({
         <AppSubpageHero title="Jobs" />
 
         <div class="container p-4 md:p-32 dark:text-white">
-            <h1 class="text-5xl mb-16">Join the SolarSustain Team</h1>
+            <h1 class="text-5xl mb-16">Join the SealTechPro Team</h1>
             <div class="pb-8 text-2xl px-32">
                 <p class="job-subheading">
                     Are you passionate about renewable energy and providing
                     exceptional customer service? Do you enjoy working outdoors
-                    and ensuring top-notch service quality? If so, SolarSustain
+                    and ensuring top-notch service quality? If so, SealTechPro
                     has the perfect opportunity for you! We are looking for
                     dedicated individuals to join our team in the San Bernardino
                     area.
@@ -26,16 +26,16 @@ useHead({
             <!--Job Post-->
             <div class="md:px-32 space-y-4 mb-16">
                 <strong class="text-3xl mb-8"
-                    >1. Solar Panel Maintenance Technician</strong
+                    >1. Concrete Sealing Maintenance Technician</strong
                 >
                 <p class="font-bold text-2xl">
                     Start Your Career in Solar Energy
                 </p>
                 <p class="text-xl">
-                    As a Solar Panel Maintenance Technician, you'll play a
+                    As a Concrete Sealing Maintenance Technician, you'll play a
                     crucial role in maintaining the efficiency and longevity of
-                    our clients' solar panel systems. Our technicians are the
-                    backbone of our service, ensuring that every job is
+                    our clients' Concrete Sealing systems. Our technicians are
+                    the backbone of our service, ensuring that every job is
                     completed to the highest standard
                 </p>
 
@@ -83,7 +83,7 @@ useHead({
                 <strong class="text-3xl mb-8"
                     >2. Customer Service Representative</strong
                 >
-                <p class="font-bold text-2xl">Be the Voice of SolarSustain</p>
+                <p class="font-bold text-2xl">Be the Voice of SealTechPro</p>
                 <p class="text-xl">
                     Our Customer Service Representatives are essential in
                     providing outstanding support to our clients. You'll be the
@@ -127,13 +127,13 @@ useHead({
             </div>
 
             <div class="flex flex-col items-center mt-16">
-                <h3 class="text-4xl pb-8">Why Join SolarSustain?</h3>
+                <h3 class="text-4xl pb-8">Why Join SealTechPro?</h3>
                 <strong class="pb-4 text-2xl"
                     >Empowering Your Career with Renewable Energy</strong
                 >
                 <p>
-                    At SolarSustain, we believe in investing in our team
-                    members. We offer comprehensive training, career advancement
+                    At SealTechPro, we believe in investing in our team members.
+                    We offer comprehensive training, career advancement
                     opportunities, and a supportive work environment. As a part
                     of our team, you will contribute to a sustainable future
                     while enjoying the benefits of a rewarding career.
@@ -144,14 +144,15 @@ useHead({
                     Interested candidates can apply by submitting their resume
                     and a brief cover letter outlining their interest in the
                     position and relevant experience. Please send your
-                    applications to jobs@solarsustain.com.
+                    applications to jobs@SealTechPro.com.
                 </p>
 
                 <p class="font-bold text-2xl">
-                    Join us at SolarSustain and be a part of the clean energy
+                    Join us at SealTechPro and be a part of the clean energy
                     revolution. We look forward to having you on our team, where
                     your skills and dedication will help us provide the best
-                    solar panel maintenance services in the San Bernardino area.
+                    Concrete Sealing maintenance services in the San Bernardino
+                    area.
                 </p>
             </div>
         </div>

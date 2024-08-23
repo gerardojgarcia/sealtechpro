@@ -12,6 +12,7 @@ const decoSealing = ref(false);
 const wbSealing = ref(false);
 const antiSlipSealing = ref(false);
 const maintReseal = ref(false);
+const acrySealing = ref(false);
 
 //Quote  Total Calculation
 
@@ -30,7 +31,7 @@ const quoteTotal = computed(() => {
     }
 
     if (maintReseal.value) {
-        total += totalSqFt.value * 0.75; // Add the cost of subscription
+        total += totalSqFt.value * 1.75; // Add the cost of subscription
     }
 
     return total.toFixed(2);
@@ -287,7 +288,7 @@ const quoteTotal = computed(() => {
                     <!-- ... -->
                     <strong>Total: ${{ quoteTotal }}</strong>
                     <p v-if="maintReseal == true">
-                        Pay in advance and save 25% off your second booking
+                        Keep your sealed concrete looking its best
                     </p>
                     <!-- ... -->
 
