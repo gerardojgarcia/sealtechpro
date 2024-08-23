@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
     <section
         id="services"
@@ -60,37 +58,52 @@
                 <div>
                     <strong class="text-2xl">Penetrating Sealing</strong>
                     <p class="p-8">
-                       Protect your concrete from within with our penetrating sealers. These sealants seep deep into the concrete, offering superior protection against moisture and wear.
+                        Protect your concrete from within with our penetrating
+                        sealers. These sealants seep deep into the concrete,
+                        offering superior protection against moisture and wear.
                     </p>
                 </div>
                 <div>
                     <strong class="text-2xl">Acrylic Sealing</strong>
                     <p class="p-8">
-                        Acrylic sealing provides a cost-effective protective layer for your concrete surfaces. This sealer enhances the appearance of your concrete while offering reliable protection.
+                        Acrylic sealing provides a cost-effective protective
+                        layer for your concrete surfaces. This sealer enhances
+                        the appearance of your concrete while offering reliable
+                        protection.
                     </p>
                 </div>
                 <div>
                     <strong class="text-2xl">Water-Based Sealing</strong>
                     <p class="p-8">
-                       For an environmentally friendly option, consider our water-based sealers. These sealants provide excellent protection while being safer for the environment.
+                        For an environmentally friendly option, consider our
+                        water-based sealers. These sealants provide excellent
+                        protection while being safer for the environment.
                     </p>
                 </div>
                 <div>
                     <strong class="text-2xl">Decorative Sealing</strong>
                     <p class="p-8">
-                        Enhance the aesthetic appeal of your concrete with our decorative sealing services. From staining to custom finishes, we add a unique touch while providing robust protection.
+                        Enhance the aesthetic appeal of your concrete with our
+                        decorative sealing services. From staining to custom
+                        finishes, we add a unique touch while providing robust
+                        protection.
                     </p>
                 </div>
-         <div>
+                <div>
                     <strong class="text-2xl">Anti-Slip Treatment</strong>
                     <p class="p-8">
-                        Safety is paramount. Our anti-slip treatments add traction to your concrete surfaces, reducing the risk of slips and falls, especially in wet conditions.
+                        Safety is paramount. Our anti-slip treatments add
+                        traction to your concrete surfaces, reducing the risk of
+                        slips and falls, especially in wet conditions.
                     </p>
                 </div>
-         <div>
+                <div>
                     <strong class="text-2xl">Maintenance & Re-Sealing</strong>
                     <p class="p-8">
-                        Regular maintenance and resealing are essential to keep your concrete in top condition. We offer periodic resealing services to maintain the protective layer and extend the lifespan of your concrete surfaces.
+                        Regular maintenance and resealing are essential to keep
+                        your concrete in top condition. We offer periodic
+                        resealing services to maintain the protective layer and
+                        extend the lifespan of your concrete surfaces.
                     </p>
                 </div>
             </div>

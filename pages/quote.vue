@@ -4,28 +4,33 @@ useHead({
     description: "Get a quick on on all our services",
 });
 
-const solarPanelCount = ref(0);
-const birdProofing = ref(false);
-const subscription = ref(false);
+const totalSqFt = ref(0);
+const epoxySealing = ref(false);
+const polySealing = ref(false);
+const peneSealing = ref(false);
+const decoSealing = ref(false);
+const wbSealing = ref(false);
+const antiSlipSealing = ref(false);
+const maintReseal = ref(false);
 
 //Quote  Total Calculation
 
 const quoteTotal = computed(() => {
     let total = 0;
-    if (solarPanelCount.value <= 10) {
-        total = solarPanelCount.value * 45;
-    } else if (solarPanelCount.value <= 16) {
-        total = solarPanelCount.value * 42;
-    } else {
-        total = solarPanelCount.value * 39;
+    if (epoxySealing.value == true) {
+        total = totalSqFt.value * 1.35;
+    } else if (polySealing.value == true) {
+        total = totalSqFt.value * 1.75;
+    } else if (decoSealing.value == true) {
+        total = totalSqFt.value * 2.35;
+    } else total = 0;
+
+    if (antiSlipSealing.value) {
+        total += totalSqFt.value * 3.5; // Add the cost of bird-proofing
     }
 
-    if (birdProofing.value) {
-        total += solarPanelCount.value * 10; // Add the cost of bird-proofing
-    }
-
-    if (subscription.value) {
-        total += total * 0.75; // Add the cost of subscription
+    if (maintReseal.value) {
+        total += totalSqFt.value * 0.75; // Add the cost of subscription
     }
 
     return total.toFixed(2);
@@ -114,8 +119,16 @@ const quoteTotal = computed(() => {
                     </div>
 
                     <div class="form-group space-y-8">
-                        <strong class="text-3xl">Additional Services:</strong>
-                        <div class="flex">
+                        <strong class="text-3xl"> Services:</strong>
+                        <p>
+                            All services include surface preparation and crack
+                            and joint repair prior to sealing
+                        </p>
+
+                        <!--Form Inputs-->
+                        <div
+                            class="grid md:grid-cols-3 gap-4 place-content-center"
+                        >
                             <div
                                 class="form-group flex flex-col items-center w-1/2"
                             >
@@ -123,13 +136,13 @@ const quoteTotal = computed(() => {
                                     name="ri:shield-check-line"
                                     class="text-5xl"
                                 />
-                                <label for="bird-proofing" class="text-xl"
-                                    >Bird-proofing:</label
+                                <label for="epoxy-sealing" class="text-xl"
+                                    >Epoxy Sealing:</label
                                 >
                                 <input
                                     type="checkbox"
-                                    id="bird-proofing"
-                                    v-model="birdProofing"
+                                    id="epoxy-sealing"
+                                    v-model="epoxySealing"
                                     class="dark:bg-gray-800 dark:text-white rounded-lg p-1"
                                 />
                             </div>
@@ -140,27 +153,140 @@ const quoteTotal = computed(() => {
                                     name="ri:calendar-check-fill"
                                     class="text-5xl"
                                 />
-                                <label for="subscription" class="text-xl"
-                                    >Subscribe & Save*</label
+                                <label
+                                    for="Polyurethane Sealing"
+                                    class="text-xl"
+                                    >Polyurethane Sealing</label
                                 >
                                 <input
                                     type="checkbox"
-                                    id="bird-proofing"
-                                    v-model="subscription"
+                                    id="poly-sealing"
+                                    v-model="polySealing"
                                     class="dark:bg-gray-800 dark:text-white rounded-lg p-1"
                                 />
+                            </div>
+                            <div
+                                class="form-group flex flex-col items-center space-y-2 w-1/2"
+                            >
+                                <Icon
+                                    name="ri:calendar-check-fill"
+                                    class="text-5xl"
+                                />
+                                <label for="penetrating-sealing" class="text-xl"
+                                    >Penetrating Sealing</label
+                                >
+                                <input
+                                    type="checkbox"
+                                    id="penetrating-sealing"
+                                    v-model="peneSealing"
+                                    class="dark:bg-gray-800 dark:text-white rounded-lg p-1"
+                                />
+                            </div>
+                            <div
+                                class="form-group flex flex-col items-center space-y-2 w-1/2"
+                            >
+                                <Icon
+                                    name="ri:calendar-check-fill"
+                                    class="text-5xl"
+                                />
+                                <label for="acrylic-sealing" class="text-xl"
+                                    >Acrylic Sealing</label
+                                >
+                                <input
+                                    type="checkbox"
+                                    id="acrylic-sealing"
+                                    v-model="acrySealing"
+                                    class="dark:bg-gray-800 dark:text-white rounded-lg p-1"
+                                />
+                            </div>
+                            <div
+                                class="form-group flex flex-col items-center space-y-2 w-1/2"
+                            >
+                                <Icon
+                                    name="ri:calendar-check-fill"
+                                    class="text-5xl"
+                                />
+                                <label for="wb-sealing" class="text-xl"
+                                    >Water-Based Sealing</label
+                                >
+                                <input
+                                    type="checkbox"
+                                    id="wb-sealing"
+                                    v-model="wbSealing"
+                                    class="dark:bg-gray-800 dark:text-white rounded-lg p-1"
+                                />
+                            </div>
+                            <div
+                                class="form-group flex flex-col items-center space-y-2 w-1/2"
+                            >
+                                <Icon
+                                    name="ri:calendar-check-fill"
+                                    class="text-5xl"
+                                />
+                                <label for="deco-sealing" class="text-xl"
+                                    >Decorative Sealing</label
+                                >
+                                <input
+                                    type="checkbox"
+                                    id="deco-sealing"
+                                    v-model="decoSealing"
+                                    class="dark:bg-gray-800 dark:text-white rounded-lg p-1"
+                                />
+                            </div>
+
+                            <div>
+                                <strong class="text-2xl mb-8">Add-Ons</strong>
+                                <div class="flex">
+                                    <div
+                                        class="form-group flex flex-col items-center space-y-2 w-1/2"
+                                    >
+                                        <Icon
+                                            name="ri:calendar-check-fill"
+                                            class="text-5xl"
+                                        />
+                                        <label for="anti-slip" class="text-xl"
+                                            >Anti-Slip Treatment</label
+                                        >
+                                        <input
+                                            type="checkbox"
+                                            id="anti-slip"
+                                            v-model="antiSlipSealing"
+                                            class="dark:bg-gray-800 dark:text-white rounded-lg p-1"
+                                        />
+                                    </div>
+
+                                    <div
+                                        class="form-group flex flex-col items-center space-y-2 w-1/2"
+                                    >
+                                        <Icon
+                                            name="ri:calendar-check-fill"
+                                            class="text-5xl"
+                                        />
+                                        <label
+                                            for="maint-reseal"
+                                            class="text-xl"
+                                            >Maintenance & Re-Sealing</label
+                                        >
+                                        <input
+                                            type="checkbox"
+                                            id="maint-reseal"
+                                            v-model="maintReseal"
+                                            class="dark:bg-gray-800 dark:text-white rounded-lg p-1"
+                                        />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
-                        <p class="text-lg">{{ solarPanelCount }} panels</p>
-                        <p v-if="birdProofing == true" class="text-lg">
-                            Bird-proofing: ${{ solarPanelCount * 10 }}
+                        <p class="text-lg">{{ totalSqFt }} sq. ft.</p>
+                        <p v-if="antiSlipSealing == true" class="text-lg">
+                            Anti-Slip Sealing: ${{ total * 10 }}
                         </p>
                     </div>
                     <!-- ... -->
                     <strong>Total: ${{ quoteTotal }}</strong>
-                    <p v-if="subscription == true">
+                    <p v-if="maintReseal == true">
                         Pay in advance and save 25% off your second booking
                     </p>
                     <!-- ... -->
