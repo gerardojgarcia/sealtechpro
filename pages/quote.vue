@@ -39,7 +39,7 @@ const quoteTotal = computed(() => {
         <div class="py-32 dar:text-white grid place-items-center">
             <h1 class="text-5xl mb-8">Quote</h1>
             <p class="quote-sub-heading text-xl pb-16">
-                Get a quote book your solar panel cleaning in less than 60
+                Get a quote book your concrete sealing service in less than 60
                 seconds!
             </p>
 
@@ -92,13 +92,13 @@ const quoteTotal = computed(() => {
                         />
                     </div>
                     <div class="form-group">
-                        <label for="solar-panel-count" class="text-xl"
-                            >Number of Solar Panels:</label
+                        <label for="total-sq-ft" class="text-xl"
+                            >Sq. Ft.:</label
                         >
                         <input
                             type="number"
-                            id="solar-panel-count"
-                            v-model="solarPanelCount"
+                            id="total-sq-ft"
+                            v-model="totalSqFt"
                             class="dark:bg-gray-800 dark:text-white rounded-lg p-1"
                         />
                     </div>
