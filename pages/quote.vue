@@ -282,7 +282,7 @@ const quoteTotal = computed(() => {
                     <div class="form-group">
                         <p class="text-lg">{{ totalSqFt }} sq. ft.</p>
                         <p v-if="antiSlipSealing == true" class="text-lg">
-                            Anti-Slip Sealing: ${{ total * 10 }}
+                            Anti-Slip Sealing: ${{ totalSqFt * 3.5 }}
                         </p>
                     </div>
                     <!-- ... -->
